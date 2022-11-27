@@ -1,4 +1,4 @@
-﻿// Функция
+// Функция
 
 // индекс массива всегда начинается с "0", есть если элементов 9 то заканчиваться он будет на 8
 
@@ -8,7 +8,7 @@ int Max(int arg1, int arg2, int arg3)
     if(arg2 > result) result = arg2;
     if(arg3 > result) result = arg3;
     return result;
-}
+}  
 int[] array = {13, 211, 13, 324, 55, 6, 779, 83, 19}; // массив
 
 int max = Max(
